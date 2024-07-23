@@ -15,7 +15,7 @@ logger = logging.getLogger('my_logger')
 app = Flask(__name__)
 
 # Initialize the Neo4j connection
-db = Neo4jConnection(uri="neo4j+s://bedcd9e5.databases.neo4j.io:7687", user="neo4j", password="G0NJr1Y0I6H-E4hsms7XrMMN8VRqRJiUdk7aslHv7Ow")
+db = Neo4jConnection(uri="", user="", password="")
 
 # Load the model from the pickle file
 with open('RidgeModel.pkl', 'rb') as f:
